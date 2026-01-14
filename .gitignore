@@ -1,6 +1,42 @@
-﻿.venv/
+# Python
+.venv/
+env/
+venv/
 __pycache__/
+*.py[cod]
 *.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode and IDEs
+.vscode/
+.idea/
+
+# Environment files
 .env
-data\uploads\*
-data\chroma_db\*
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# Data
+data/
+data/uploads/*
+data/chroma_db/*
+
+# Logs
+logs/
