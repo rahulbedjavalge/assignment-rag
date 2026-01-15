@@ -1,8 +1,11 @@
 ﻿import os
 import requests
 from dotenv import load_dotenv
+from pathlib import Path
 
-load_dotenv()
+# Load .env from the project root
+env_path = Path(__file__).parent.parent.parent.parent / '.env'
+load_dotenv(env_path)
 
 BASE_URL = "https://openrouter.ai/api/v1"
 
