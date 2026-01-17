@@ -2,7 +2,7 @@ import os
 import sys
 
 # Set environment variables directly
-os.environ['OPENROUTER_API_KEY'] = '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'
+os.environ['OPENROUTER_API_KEY'] = ''
 os.environ['OPENROUTER_MODEL'] = 'allenai/molmo-2-8b:free'
 os.environ['OPENROUTER_SITE_URL'] = 'http://localhost'
 os.environ['OPENROUTER_APP_NAME'] = 'AssignmentRAG'
